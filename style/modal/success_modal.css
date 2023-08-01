@@ -1,0 +1,186 @@
+:root {
+    --main-font-color: #1C1C1E;
+    --second-font-color: #C5C5C5;
+    --third-font-color: #8e8e93;
+    --forth-font-color: #5E5D65;
+    --fifth-font-color: #44444C;
+    --sixth-font-color: #064BB4;
+    --font-white-color: #FFFFFF;
+    --background: #F9F9FB;
+    --second-background-color: #064BB4;
+    --footer-bacground-color: #08172d;
+    --card_background-color: #FFFFFF;
+    --accent: #BCFF5E;
+    --border: #E9EBED;
+  }
+  
+  * {
+    font-family: "General Sans";
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  a {
+    color: #064BB4;
+  }
+  
+  body.show-success-modal .success_backdrop_modal {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: initial;
+  }
+  
+  body.show-success-modal .modal {
+    transform: scale(1);
+  }
+  
+  .success_modal .success_backdrop_modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+  }
+  
+  .success_modal .success_backdrop_modal .modal {
+    width: 358px;
+    padding: 48px 56px;
+    background: #ffffff;
+    box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.08);
+    border-radius: 24px;
+    position: relative;
+  }
+  
+  .success_modal .success_backdrop_modal .modal .logo-img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .success_modal .success_backdrop_modal .modal h2 {
+    width: 100%;
+    margin: 32px auto 0;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.005em;
+  }
+  
+  .success_modal .success_backdrop_modal .modal p {
+    margin-top: 10px;
+    color: var(--forth-font-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.08px;
+  }
+
+  
+  .success_modal .success_backdrop_modal .modal .continue_btn {
+    display: block;
+    width: 134px;
+    height: 56px;
+    margin: 32px auto 0;
+    background: #BCFF5E;
+    border-radius: 24px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+  }
+  
+  
+  
+  .sign_in_modal .sign-up-backdrop .modal .recover_password_btn {
+    display: block;
+    margin: 48px auto 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--sixth-font-color);
+    border: none;
+    background-color: var(--card_background-color);
+  }
+
+  @media screen and (max-width: 992px) {
+    .success_modal .success_backdrop_modal .modal {
+      width: 40vw;
+      padding: 32px;
+    }
+
+    .success_modal .success_backdrop_modal .modal .logo-img {
+      width: 145px;
+    }
+  
+    .success_modal .success_backdrop_modal .modal h2 {
+      width: 70%;
+      margin: 16px auto 0;
+      font-size: 26px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+    .success_modal .success_backdrop_modal .modal {
+      padding: 26px;
+    }
+
+    .success_modal .success_backdrop_modal .modal .logo-img {
+      width: 125px;
+    }
+  
+    .success_modal .success_backdrop_modal .modal h2 {
+      width: 80%;
+      margin-top: 16px;
+      font-size: 24px;
+    }
+  
+    .success_modal .success_backdrop_modal .modal .continue_btn{
+      height: 48px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .success_modal .success_backdrop_modal .modal {
+      width: 50vw;
+      padding: 22px;
+    }
+
+    .success_modal .success_backdrop_modal .modal .logo-img {
+      width: 125px;
+    }
+  
+    .success_modal .success_backdrop_modal .modal h2 {
+      font-size: 20px;
+      font-weight: 500;
+    } 
+  
+    .success_modal .success_backdrop_modal .modal .continue_btn{
+      height: 42px;
+      margin-top: 24px;
+      font-size: 14px;
+    }
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .success_modal .success_backdrop_modal .modal .logo-img {
+      width: 100px;
+    }
+  }

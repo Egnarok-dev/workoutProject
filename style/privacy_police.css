@@ -1,0 +1,95 @@
+:root {
+  --main-font-color: #1C1C1E;
+  --second-font-color: #C5C5C5;
+  --third-font-color: #8e8e93;
+  --forth-font-color: #5E5D65;
+  --fifth-font-color: #44444C;
+  --sixth-font-color: #064BB4;
+  --font-white-color: #FFFFFF;
+  --background: #F9F9FB;
+  --second-background-color: #064BB4;
+  --footer-bacground-color: #08172d;
+  --card_background-color: #FFFFFF;
+  --accent: #BCFF5E;
+  --border: #E9EBED;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "General Sans";
+}
+
+body {
+  background-color: #f9f9fb;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.first_screen {
+  padding: 160px;
+  padding-bottom: 124px;
+}
+
+.first_screen .container h2 {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: 0.005em;
+}
+
+.first_screen .container h2 span {
+  font-weight: 400;
+}
+
+.first_screen .container .update_data {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #636366;
+}
+
+.first_screen .container h3 {
+  margin-top: 48px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.005em;
+  color: #09080d;
+}
+
+.first_screen .container .text_content {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #1c1c1e;
+}
+
+.first_screen .container .text_content span {
+  font-weight: bold;
+}
+
+.first_screen .container ul {
+  list-style: disc;
+  margin-left: 20px;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms of Service</title>
+    <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet" />
+    <link rel="stylesheet" href="style/payment.css" />
+    <link rel="stylesheet" href="style/header_second_style.css" />
+    <link rel="stylesheet" href="style/modal/sign_up modal.css" />
+    <link rel="stylesheet" href="style/modal/sign_in modal.css" />
+    <link rel="stylesheet" href="style/modal/cart.css" />
+    <link rel="stylesheet" href="style/modal/recover_password_modal.css" />
+    <link rel="stylesheet" href="style/modal/verifying_account.css" />
+    <link rel="stylesheet" href="style/modal/create_new_password.css" />
+    <link rel="stylesheet" href="style/modal/success_modal.css" />
+    <link rel="stylesheet" href="style/modal/confirm_login_modal.css" />
+    <link rel="stylesheet" href="style/modal/security_code_modals.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+  </head>
+
+  <body>
+    <div class="header_container"></div>
+
+    <!-- modals -->
+    <div class="js_sign_up_modal"></div>
+    <div class="js_sign_in_modal"></div>
+    <div class="js_recover_password_modal"></div>
+    <div class="js_verifying_account_modal"></div>
+    <div class="js_new_password_modal"></div>
+    <div class="js_success_modal"></div>
+    <div class="js_confirm_login_modal"></div>
+    <div class="js_security_code_modal"></div>
+    <div class="js_cart_modal"></div>
+    <!-- end modals -->
+
+    <div class="first_screen">
+      <div class="container">
+        <main>
+          <h2>Get your package</h2>
+          <form action="">
+            <div class="payment_methods">
+              <h3>Pay with</h3>
+              <label class="payment_system">
+                <input type="radio" name="payment" value="credit_card" />
+                <img src="./gallery/icons/payment/PayPal_icon.png" alt="" />
+              </label>
+              <label class="payment_system">
+                <input type="radio" name="payment" value="credit_card" />
+                <img src="./gallery/icons/payment/ApplePay.png" alt="" />
+              </label>
+            </div>
+            <p class="short_payment_text">Or using a credit card</p>
+            <div class="credit_card_info">
+              <label>
+                Cardholder Name
+                <input
+                  type="text"
+                  class="card_info"
+                  name="cardholder_name"
+                  placeholder=""
+                />
+              </label>
+              <label>
+                Card Number
+                <input
+                  type="text"
+                  class="card_info"
+                  name="card_number"
+                  placeholder="Ex:  31111 1111 1111 1111"
+                />
+              </label>
+              <div class="card_details">
+                <label class="card_info_details">
+                  Postal Code
+                  <input
+                    type="text"
+                    class="card_info"
+                    name="postal_code"
+                    placeholder="Postal or ZIP code"
+                  />
+                </label>
+                <label class="card_info_details">
+                  Expiration
+                  <input
+                    type="text"
+                    name="expiry_date"
+                    class="card_info"
+                    placeholder="MM / YYYY"
+                    pattern="\d{2}\/\d{4}"
+                  />
+                </label>
+                <label class="card_info_details">
+                  CVV
+                  <input
+                    type="text"
+                    class="card_info"
+                    name="cvv"
+                    placeholder=""
+                  />
+                </label>
+              </div>
+              <label class="save_card_checkbox">
+                <input type="checkbox" class="payment_checkbox" />
+                <span class="custom_checkbox"></span>
+                <p>Save card</p>
+              </label>
+            </div>
+            <button class="pay_btn">Confirm and pay</button>
+          </form>
+        </main>
+        <aside>
+          <div class="order_box">
+            <div class="flex_box_order">
+              <p class="js-cost-order"></p>
+              <p class="order_price">/Month</p>
+            </div>
+            <h3>Basic Plan</h3>
+            <p class="plan_description">
+              It’s a long estabilished fact that a reader will be <br />
+              distracted by the readable content
+            </p>
+            <div class="includes">
+              <h4>What’s Includes:</h4>
+              <ul>
+                <li>
+                  <img
+                    src="./gallery/icons/payment/plan_card_check.png"
+                    alt="icon"
+                  />8 classes per month
+                </li>
+                <li>
+                  <img
+                    src="./gallery/icons/payment/plan_card_check.png"
+                    alt="icon"
+                  />All in basic package
+                </li>
+                <li>
+                  <img
+                    src="./gallery/icons/payment/plan_card_check.png"
+                    alt="icon"
+                  />1-on-1 personal trainning
+                </li>
+              </ul>
+            </div>
+            <div class="order_value dropdown">
+              <h5>Package Duration</h5>
+              <button class="payment_plan_btn btn-plan" id="dropBtn">
+                1 Month
+                <img
+                  src="./gallery/icons/membership/Basic plan/arrow-down.png"
+                  alt="arrow-down"
+                />
+              </button>
+              <ul class="dropdown-menu" id="month_list"></ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <div class="footer_container"></div>
+
+    <script src="js/header_second_style.js" type="module"></script>
+    <script src="js/modal.js" type="module"></script>
+    <script src="js/program_plan.js" type="module"></script>
+    <script src="js/footer.js" type="module"></script>
+  </body>
+</html>

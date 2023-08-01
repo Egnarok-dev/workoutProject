@@ -1,0 +1,545 @@
+:root {
+    --main-font-color: #1C1C1E;
+    --second-font-color: #C5C5C5;
+    --third-font-color: #8e8e93;
+    --forth-font-color: #5E5D65;
+    --fifth-font-color: #44444C;
+    --sixth-font-color: #064BB4;
+    --font-white-color: #FFFFFF;
+    --background: #F9F9FB;
+    --second-background-color: #064BB4;
+    --footer-bacground-color: #08172d;
+    --card_background-color: #FFFFFF;
+    --accent: #BCFF5E;
+    --border: #E9EBED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+body {
+    background-color: var(--background);
+}
+
+.container {
+    width: 78.125vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* header style */
+header nav .nav_menu .menu_categories li:first-child a {
+    color: var(--font-white-color);
+}
+/* end header style */
+
+.first_screen {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 86px;
+    background-color: var(--second-background-color);
+}
+
+.first_screen .container .upper_section {
+    display: flex;
+}
+
+.first_screen .container {
+    position: relative;
+}
+
+.first_screen main {
+    width: 40.105vw;
+    margin-top: 62px;
+    /* position: relative; */
+    z-index: 100;
+}
+
+.first_screen main h1 {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 0.005em;
+    color: var(--font-white-color);
+}
+
+.first_screen main p {
+    width: 30.083vw;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--second-font-color);
+}
+
+.first_screen main button {
+    width: 11.458vw;
+    height: 56px;
+    margin-top: 44px;
+    background: var(--accent);
+    border-radius: 24px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.first_screen main section {
+    margin-top: 80px;
+    width: 32.096vw;
+}
+
+.first_screen main section .brand_list {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_screen .container aside {
+    width: 53.646vw;
+    height: 949px;
+    position: absolute;
+    top: 25px;
+    left: 28.694vw;
+    background-image: url(../gallery/images/first_screen_man.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.first_screen .container aside .first_card {
+    margin: 179px 145px 214px 635px;
+    position: relative;
+    z-index: 2;
+}
+
+.first_screen .container aside .second_card {
+    margin: 0 310px 128px 415px;
+    position: relative;
+    z-index: 2;
+}
+
+.first_screen .container aside .first_ellipse {
+    width: 631px;
+    height: 199.74px;
+    position: absolute;
+    top: 255px;
+    left: 75px;
+}
+
+.first_screen .container aside .second_ellipse {
+    width: 401px;
+    height: 127.15px;
+    position: absolute;
+    top: 450px;
+    left: 213px;
+}
+
+
+.first_screen .container .under_section {
+    width: 78.125vw;
+    margin-top: 120px;
+    padding-bottom: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_screen .container .under_section .our_program {
+    width: 56.836vw;
+    display: flex;
+    background-color: var(--card_background-color);
+    box-shadow: 64px 64px 80px rgba(8, 23, 45, 0.16);
+    border-radius: 20px;
+    position: relative;
+}
+
+.first_screen .container .under_section .card {
+    width: 18.945vw;
+    padding: 24px;
+}
+
+.first_screen .container .under_section .card h4 {
+    width: 11.589vw;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container .under_section .card p {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container .under_section .card a {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.first_screen .container .under_section .card a img {
+    margin-left: 5.67px;
+}
+
+.first_screen .container .under_section .card:nth-child(2) {
+    background-color: var(--accent);
+}
+
+.first_screen .container .under_section .aside_box {
+    width: 17.122vw;
+    margin-top: 11px;
+}
+
+.first_screen .container .under_section .aside_box h3 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.005em;
+    color: var(--font-white-color);
+}
+
+.first_screen .container .under_section .aside_box p {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--second-font-color);
+}
+
+.second_screen {
+    width: 100%;
+    padding-top: 120px;
+}
+
+.second_screen .container h2 {
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+}
+
+.second_screen .container .info_box {
+    display: flex;
+    margin: 56px auto 0;
+    justify-content: space-between;
+}
+
+.second_screen .container article {
+    width: 34.367vw;
+    padding: 32px 40px;
+    border-radius: 20px;
+    background-color: var(--card_background-color);
+
+}
+
+.second_screen .container article h3 {
+    width: 100%;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+}
+
+.second_screen .container article section {
+    width: 29.090vw;
+    margin-top: 45px;
+}
+
+.second_screen .container article section div {
+    margin-bottom: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.second_screen .container article section div p {
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+}
+
+.second_screen .container article .border_line {
+    margin-top: 40px;
+    border: 1px solid var(--border);
+}
+
+.second_screen .container article button {
+    width: 150px;
+    height: 56px;
+    margin-top: 40px;
+    background: var(--accent);
+    border-radius: 24px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.second_screen .container aside {
+    margin: 27.5px 0 27.5px 48px;
+}
+
+.second_screen .container aside img {
+    width: 41.623vw;
+}
+
+.third_screen {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.third_screen .container .info_box {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third_screen .container article {
+    width: 34.367vw;
+    padding: 32px 40px;
+    border-radius: 20px;
+    background-color: var(--card_background-color);
+
+}
+
+.third_screen .container article h3 {
+    width: 100%;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+}
+
+.third_screen .container article section {
+    width: 29.090vw;
+    margin-top: 45px;
+}
+
+.third_screen .container article section div {
+    margin-bottom: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.third_screen .container article section div p {
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+}
+
+.third_screen .container article .border_line {
+    margin-top: 40px;
+    border: 1px solid var(--border);
+}
+
+.third_screen .container article button {
+    width: 150px;
+    height: 56px;
+    margin-top: 40px;
+    background: var(--accent);
+    border-radius: 24px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.third_screen .container aside {
+    margin: 27.5px 48px 27.5px 0;
+}
+
+.third_screen .container aside img {
+    width: 41.623vw;
+}
+
+.fourth_screen {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.fourth_screen .container .btn {
+    width: 116px;
+    height: 38px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid var(--border);
+    background-color: var(--background);
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: var(--sixth-font-color);
+}
+
+.fourth_screen .container h2 {
+    margin: 16px auto 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.005em;
+}
+
+.fourth_screen .container main {
+    width: 68.602vw;
+    margin: 43px auto 0;
+    display: flex;
+    justify-content: space-between
+}
+
+.fourth_screen .container main .plan_card {
+    width: 21.808vw;
+    padding: 40px;
+    background: var(--card_background-color);
+    border-radius: 24px;
+}
+
+.fourth_screen .container main .plan_card:nth-child(2) {
+    background: var(--second-background-color);
+    color: var(--font-white-color);
+}
+
+.fourth_screen .container main .plan_card .price {
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+}
+
+.fourth_screen .container main .plan_card .price span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--second-font-color);
+}
+
+.fourth_screen .container main .plan_card .type_plan {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: var(--sixth-font-color);
+}
+
+.fourth_screen .container main .plan_card:nth-child(2) .type_plan {
+    color: var(--font-white-color);
+}
+
+.fourth_screen .container main .plan_card .privilege {
+    margin-top: 32px;
+}
+
+.fourth_screen .container main .plan_card .privilege div {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.fourth_screen .container main .plan_card .privilege div p {
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.fourth_screen .container main .plan_card .btn_plan {
+    width: 15.831vw;
+    height: 46px;
+    margin-top: 32px;
+    background: var(--accent);
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+}
+
+.discover_box {
+    padding: 80px 0;
+    background-color: var(--second-background-color);
+}
+
+.discover_box .container {
+    width: 79.156vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discover_box .container article {
+    width: 48.177vw;
+}
+
+.discover_box .container article h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.005em;
+    color: var(--font-white-color);
+}
+
+.discover_box .container article p {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--font-white-color);
+}
+
+.discover_box .container aside a {
+    width: 170px;
+    display: block;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    background-color: var(--accent);
+    color: var(--main-font-color);
+    border-radius: 24px;
+}
+

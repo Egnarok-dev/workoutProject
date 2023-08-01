@@ -1,0 +1,166 @@
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width:960px;
+    }
+
+    .second_screen .container table {
+        width: 100%;
+    }
+
+    .first_screen .container main .plan_card .btn_plan {
+        width: 220px;
+        height: 46px;
+        margin: 24px auto 0;
+    }
+
+    .second_screen .container table .left_column {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .first_screen .container h2 {
+        width: 100%;
+    }
+
+    .first_screen .container main {
+        width: 100%;
+    }
+
+    .first_screen .container main .plan_card {
+        width: 225px;
+        height: auto;
+    }
+
+    .first_screen .container main .plan_card .price {
+        font-size: 32px;
+    }
+
+    .first_screen .container main .plan_card .info_about_plan {
+        width: 100%;
+    }
+
+    .first_screen .container main .plan_card .btn_plan {
+        width: 180px;
+        height: 46px;
+        margin: 24px auto 0;
+    }
+
+    .second_screen .container table .left_column {
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .second_screen .container table td {
+        width: 25%;
+        font-size: 16px;
+    }
+
+    .second_screen .container table tr td:nth-child(3) {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }  
+
+    .first_screen .container h2 {
+        font-size: 32px;
+    }
+    
+    .first_screen .container main {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .first_screen .container main .plan_card {
+        width: 300px;
+        height: auto;
+        margin: 40px auto 0;
+    }
+
+    .first_screen .container main .plan_card .price {
+        font-size: 32px;
+    }
+
+    .second_screen .container table .left_column {
+        width: 30%;
+    }
+
+    .second_screen .container table tr {
+        height: 80px;
+    }
+
+    .second_screen .container table td {
+        width: 25%;
+    }
+
+    .second_screen .container table tr td:nth-child(3) {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .first_screen {
+        padding-top: 80px;
+    }
+
+    .second_screen {
+        padding-bottom: 0;
+    }
+
+    .second_screen .container h4 {
+        padding-left: 30px;
+    }
+
+    .second_screen .container table {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .second_screen .container table td {
+        font-size: 14px;
+    }
+
+    .second_screen .container table tr img {
+        width: 18px;
+    }
+
+    .second_screen .container table tr img {
+        width: 24px;
+        
+    }    
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+      width: auto;
+      padding: 10px;
+    }
+
+    .second_screen .container table .left_column {
+        width: 40%;
+    }
+
+    .second_screen .container table td {
+        font-size: 12px;
+        width: 20%;
+    }
+}

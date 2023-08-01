@@ -1,0 +1,274 @@
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 1200px;
+    }
+
+    .first_screen .container h2 {
+        font-size: 36px;
+    }
+
+    .second_screen .container aside h2 {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+    .second_screen .container aside p {
+        margin-bottom: 64px;
+    }
+
+    .second_screen .container main h2 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+
+    .first_screen .container h2 {
+        font-size: 32px;
+    }
+
+    .first_screen .container main {
+      width: 100%;
+      margin: 48px auto 0;
+  }
+
+    .first_screen .container main .our_program {
+      width: 75vw;
+    }
+
+    .first_screen .container main .card {
+      width: 25vw;
+      padding: 24px;
+  }
+
+  .first_screen .container main .card h4 {
+    width: 100%;
+  }
+
+    .second_screen .container aside h2 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .second_screen .container aside p {
+        margin-bottom: 40px;
+    }
+
+    .second_screen .container main h2 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .first_screen .container h2 {
+      width: 40%;
+        font-size: 28px;
+    }
+
+    .first_screen .container main {
+        width: 100%;
+    }
+
+    .first_screen .container main .our_program {
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first_screen .container main .card {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .second_screen .container aside h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .second_screen .container aside p {
+        margin-bottom: 32px;
+    }
+
+    .second_screen .container aside a {
+        padding: 12px 24px;
+    }
+
+    .second_screen .container main h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .second_screen .container details p {
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .first_screen .container h2 {
+      width: 55%;
+        font-size: 28px;
+    }
+
+    .second_screen .container aside h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .second_screen .container aside p {
+        margin-bottom: 48px;
+    }
+
+    .second_screen .container main h2 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+      }
+
+      .first_screen {
+        padding-top: 140px;
+      }
+      
+    .first_screen .container h2 {
+        font-size: 32px;
+        margin-top: 22px;
+    }
+
+    .first_screen .container main {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .first_screen .container main .our_program {
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .first_screen .container main .card {
+        width: 100%;
+        padding: 16px;
+        margin-bottom: 24px;
+        padding: 32px;
+    }
+
+    .first_screen .container main .card p {
+      width: 90%;
+      margin: 12px auto;
+  }
+
+    .first_screen .container main .card a {
+      display: block;
+      margin: 24px auto 0;
+      font-size: 16px;
+  }
+
+  .first_screen .container main .card a img {
+    width: 16px;
+  }
+
+  .second_screen {
+    padding: 0;
+  }
+
+    .second_screen .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second_screen .container aside {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .second_screen .container aside h2 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .second_screen .container main {
+        width: 100%;
+    }
+
+    .second_screen .container main h2 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+
+    .second_screen .container details {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+      width: auto;
+    }
+
+    .first_screen {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  
+    .first_screen .container h2 {
+      font-size: 24px;
+    }
+
+    .second_screen .container {
+      width: 82vw;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .second_screen .container details summary {
+    font-size: 18px;
+  }
+  
+    .second_screen .container aside h2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  
+    .second_screen .container aside p {
+      margin-bottom: 24px;
+    }
+  
+    .second_screen .container aside a {
+      padding: 10px 20px;
+    }
+  
+    .second_screen .container main h2 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .second_screen .container details p {
+      margin-bottom: 8px;
+    }
+  }
+  

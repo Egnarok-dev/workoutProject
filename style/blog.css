@@ -1,0 +1,332 @@
+:root {
+    --main-font-color: #1C1C1E;
+    --second-font-color: #C5C5C5;
+    --third-font-color: #8e8e93;
+    --forth-font-color: #5E5D65;
+    --fifth-font-color: #44444C;
+    --sixth-font-color: #064BB4;
+    --font-white-color: #FFFFFF;
+    --background: #F9F9FB;
+    --second-background-color: #064BB4;
+    --footer-bacground-color: #08172d;
+    --card_background-color: #FFFFFF;
+    --accent: #BCFF5E;
+    --border: #E9EBED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans';
+}
+
+body {
+    background-color: #F9F9FB;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.first_screen {
+    padding: 160px;
+    padding-bottom: 80px;
+}
+
+.first_screen .container .section {
+    width: 1200px;
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_screen .container .resource_btn {
+    padding: 8px 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #064BB4;
+    border: 1px solid #E9EBED;
+    border-radius: 20px;    
+}
+
+.first_screen .container h2 {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container h2 span {
+    font-weight: 400;
+}
+
+.first_screen .container .main_box {
+    width: 564px;
+}
+
+.first_screen .container .main_box .flex_box {
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first_screen .container .main_box .flex_box a {
+    padding: 8px 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #064BB4;
+    border: 1px solid #E9EBED;
+    border-radius: 20px; 
+}
+
+.first_screen .container .main_box .flex_box p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #636366;
+}
+
+.first_screen .container .main_box h3 {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+}
+
+
+.first_screen .container .main_box .shorts {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #636366;
+}
+
+.first_screen .container .main_box .more_info_btn {
+    width: 95px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+}
+
+.first_screen .container .aside_box {
+    width: 572px;
+}
+
+.first_screen .container .aside_box .card {
+    width: 100%;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first_screen .container .aside_box .card img {
+    margin-right: 24px;
+}
+
+.first_screen .container .aside_box .card .data {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #636366;
+}
+
+.first_screen .container .aside_box .card .description_box {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+}
+
+.second_screen {
+    padding-bottom: 56px;
+}
+
+.second_screen .container .menu_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second_screen .container .menu_box h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+}
+
+.second_screen .container .menu_box ul {
+    width: 426px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second_screen .container .menu_box ul li:first-child {
+    background: #BCFF5E;
+    border-radius: 20px;
+}
+
+.second_screen .container .menu_box ul li {
+    padding: 12px 24px;
+}
+
+.second_screen .container .menu_box li a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+}
+
+.second_screen .container .cards {
+    width: 100%;
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.second_screen .container .cards .card {
+    width: 374px;
+    margin-bottom: 64px;
+}
+
+.second_screen .container .cards .card .flex_box {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second_screen .container .cards .card .flex_box p:first-child {
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+}
+
+.second_screen .container .cards .card .flex_box p:nth-child(2) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #636366;
+}
+
+.second_screen .container .cards .card h4 {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+}
+
+.second_screen .container .cards .card .description_box {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #636366;
+}
+
+.second_screen .container .cards .card .more_info_btn {
+    width: 95px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+}
+
+.discover_box {
+    background-color: var(--second-background-color);
+}
+
+.discover_box .container {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.discover_box .container article {
+    width: 48.177vw;
+}
+
+.discover_box .container article h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.005em;
+    color: var(--font-white-color);
+}
+
+.discover_box .container article p {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--font-white-color);
+}
+
+.discover_box .container aside {
+    width: 29.948vw;
+}
+
+.discover_box .container aside a {
+    width: 11.068vw;
+    height: 56px;
+    padding: 16px 40px;
+    margin: 44px 0 44px 290px;
+    color: var(--main-font-color);
+    background: var(--accent);
+    border-radius: 24px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}

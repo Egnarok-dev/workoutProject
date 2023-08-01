@@ -1,0 +1,1211 @@
+@media screen and (max-width: 1440px) {
+  .first_screen main h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .first_screen main p,
+  .first_screen .container .under_section .aside_box p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .first_screen .container aside {
+    width: 60%;
+    top: 29px;
+    left: 25.9vw;
+    background-size: contain;
+  }
+
+  .first_screen .container aside .first_card {
+    margin: 179px 9.499vw 140px 548px;
+  }
+
+  .first_screen .container aside .second_card {
+    margin: 0 20.185vw 128px 354px;
+  }
+
+  .first_screen .container aside .first_ellipse {
+    width: 456px;
+    height: 201.74px;
+    top: 220px;
+    left: 128px;
+  }
+
+  .first_screen .container aside .second_ellipse {
+    width: 295px;
+    height: 127.15px;
+    top: 388px;
+    left: 225px;
+  }
+
+  /* .second_screen .container .info_box {
+    margin-top: 56px;
+} */
+
+  .second_screen .container h2,
+  .third_screen .container h2,
+  .fourth_screen .container h2,
+  .feedback .container h2,
+  .discover_box .container article h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .second_screen .container article h3,
+  .third_screen .container article h3,
+  .fourth_screen .container main .plan_card .price {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .second_screen .container article section div p,
+  .third_screen .container article section div p,
+  .fourth_screen .container main .plan_card .privilege div p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .fourth_screen .container main .plan_card .privilege {
+    height: 160px;
+  }
+
+  .discover_box .container article p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+
+  .first_screen {
+    padding-top: 40px;
+  }
+
+  .first_screen main h1 {
+    width: 90%;
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .first_screen main p {
+    width: 80%;
+  }
+
+  .first_screen main button {
+    width: 150px;
+  }
+
+  .first_screen main section {
+    width: 90%;
+  }
+
+
+  .first_screen .container aside {
+    width: 70%;
+    top: 29px;
+    left: 25.9vw;
+    background-size: contain;
+  }
+
+  .first_screen .container aside .first_card {
+    width: 80px;
+    margin: 150px 9.499vw 175px 456px;
+  }
+
+  .first_screen .container aside .second_card {
+    width: 80px;
+    margin: 0 20.185vw 128px 344px;
+  }
+
+  .first_screen .container aside .first_ellipse {
+    width: 380px;
+    height: 197.74px;
+    top: 202px;
+    left: 106px;
+  }
+
+  .first_screen .container aside .second_ellipse {
+    width: 270px;
+    height: 135.15px;
+    top: 365px;
+    left: 210px;
+  }
+
+  .first_screen .container .under_section .our_program {
+    width: 61vw;
+  }
+
+  .first_screen .container .under_section .card {
+    width: 20vw;
+    padding: 18px;
+  }
+
+  .first_screen .container .under_section .aside_box {
+    width: 15vw;
+  }
+
+  .first_screen .container .under_section .aside_box h3 {
+    font-size: 32px;
+  }
+
+
+  .second_screen .container h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .second_screen .container article {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .second_screen .container article h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .second_screen .container article section {
+    width: 100%;
+  }
+
+  .second_screen .container article section div p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .second_screen .container h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .second_screen .container article {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .second_screen .container article h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .second_screen .container article section {
+    width: 100%;
+  }
+
+  .second_screen .container article section div p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+
+
+  .third_screen .container h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .third_screen .container article {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .third_screen .container article h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .third_screen .container article section {
+    width: 100%;
+  }
+
+  .third_screen .container article section div p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .third_screen .container h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .third_screen .container article {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .third_screen .container article h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .third_screen .container article section {
+    width: 100%;
+  }
+
+  .third_screen .container article section div p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  /* .third_screen .container article h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .third_screen .container article section {
+    width: 100%;
+  }
+
+  .third_screen .container article section div p {
+    font-size: 14px;
+    line-height: 22px;
+  } */
+
+  .fourth_screen {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .fourth_screen .container h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .fourth_screen .container main {
+    width: 100%;
+  }
+
+  .fourth_screen .container main .plan_card {
+    width: 30%;
+    padding: 32px;
+    justify-content: space-evenly;
+  }
+
+  .fourth_screen .container main .plan_card .privilege {
+    height: 148px;
+  }
+
+  .fourth_screen .container main .plan_card .price {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .fourth_screen .container main .plan_card .price span {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .fourth_screen .container main .plan_card .type_plan {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .fourth_screen .container main .plan_card .privilege div p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .fourth_screen .container main .plan_card .btn_plan {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .discover_box .container article {
+    width: 70%;
+  }
+
+  .discover_box .container article h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .discover_box .container article p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .discover_box .container aside a {
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+
+  .first_screen {
+    padding-top: 40px;
+  }
+
+  .first_screen main h1 {
+    width: 45vw;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 42px;
+    line-height: 56px;
+  }
+
+  .first_screen main p {
+    width: 80%;
+  }
+
+  .first_screen main button {
+    width: 130px;
+    height: 50px;
+    margin-top: 26px;
+  }
+
+  .first_screen main section {
+    width: 80%;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    display: none;
+  }
+
+  /* .first_screen main section img:nth-child(1) {
+    width: 60px;
+    height: 22px;
+  }
+  .first_screen main section img:nth-child(2) {
+    width: 80px;
+    height: 22px;
+  }
+  .first_screen main section img:nth-child(3) {
+    width: 90px;
+    height: 22px;
+  }
+  .first_screen main section img:nth-child(4) {
+    width: 60px;
+    height: 22px;
+  } */
+
+  .first_screen .container aside {
+    width: 60%;
+    top: 100px;
+    left: 31vw;
+    background-size: contain;
+  }
+
+  .first_screen .container aside .first_card {
+    width: 70px;
+    margin: 104px 9.499vw 75px 295px;
+  }
+
+  .first_screen .container aside .second_card {
+    width: 70px;
+    margin: 0 20.185vw 128px 207px;
+  }
+
+  .first_screen .container aside .first_ellipse {
+    width: 270px;
+    height: 121px;
+    top: 133px;
+    left: 69px;
+  }
+
+  .first_screen .container aside .second_ellipse {
+    width: 215px;
+    height: 101.15px;
+    top: 217px;
+    left: 120px;
+  }
+
+  .first_screen .container .under_section {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .first_screen .container .under_section .our_program {
+    width: 100%;
+  }
+
+  .first_screen .container .under_section .card {
+    width: 100%;
+  }
+
+  /*  .first_screen .container .under_section .card h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .first_screen .container .under_section .card p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+*/
+
+  .first_screen .container .under_section {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 3%;
+  }
+
+  .first_screen .container .under_section .aside_box {
+    width: 50%;
+    margin-bottom: 16px;
+  }
+
+  .first_screen .container .under_section .aside_box h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .second_screen .container article {
+    width: 52%;
+    padding: 24px;
+  }
+
+  .second_screen .container article h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .second_screen .container article section {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .second_screen .container article section div p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .second_screen .container article button {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .second_screen .container aside {
+    margin: 27px auto;
+  }
+
+  .second_screen .container aside img {
+    width: 28vw;
+    margin: 0 auto;
+  }
+
+  .third_screen .container article {
+    width: 52%;
+    padding: 24px;
+  }
+
+  .third_screen .container article h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .third_screen .container article section {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .third_screen .container article section div p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .third_screen .container article button {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .third_screen .container aside {
+    margin: 27px auto;
+  }
+
+  .third_screen .container aside img {
+    width: 28vw;
+    margin: 0 auto;
+  }
+
+  /* .third_screen {
+    padding-top: 30px;
+  }
+
+  .third_screen .container article {
+    width: 52%;
+    padding: 24px;
+  }
+
+  .third_screen .container article h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .third_screen .container article section {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .third_screen .container article section div p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .third_screen .container article button {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .third_screen .container aside {
+    margin: 27px auto;
+  }
+
+  .third_screen .container aside img {
+    width: 28vw;
+    margin: 0 auto;
+  } */
+
+
+  .fourth_screen .container h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .fourth_screen .container main {
+    width: 50%;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .fourth_screen .container main .plan_card {
+    width: 100%;
+    margin: 16px 0;
+    padding: 40px;
+  }
+
+  .fourth_screen .container main .plan_card .price {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .fourth_screen .container main .plan_card .price span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .fourth_screen .container main .plan_card .type_plan {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .fourth_screen .container main .plan_card .privilege div p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .fourth_screen .container main .plan_card .btn_plan {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .discover_box .container article h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .discover_box .container article p {
+    width: 50.323vw;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .discover_box .container aside a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+
+  header nav .nav_menu .menu_categories li:first-child a {
+    color: black;
+}
+
+  .first_screen .upper_section {
+    flex-direction: column;
+  }
+
+  .first_screen .container main {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .first_screen main h1 {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .first_screen main p {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .first_screen main button {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 60px;
+  }
+
+  .first_screen main section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first_screen .container aside {
+    width: 60%;
+    left: 38vw;
+    top: 235px;
+  }
+
+  .first_screen .container aside .first_card,
+  .first_screen .container aside .second_card {
+    display: none;
+  }
+
+  .first_screen .container aside .first_ellipse,
+  .first_screen .container aside .second_ellipse {
+    display: none;
+  }
+
+  .first_screen .container .under_section .our_program {
+    max-width: 100%;
+  }
+
+  .first_screen .container .under_section .card {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .first_screen .container .under_section .card h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .first_screen .container .under_section .card p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .first_screen .container .under_section .aside_box {
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .first_screen .container .under_section .aside_box h3 {
+    width: 60%;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .first_screen .container .under_section .aside_box p {
+    width: 50%;
+  }
+
+  .second_screen .container .info_box {
+    flex-direction: column-reverse;
+  }
+
+  .second_screen .container article {
+    width: 47vw;
+    margin: 0 auto;
+    padding: 100px 24px 24px;
+  }
+
+  .second_screen .container article h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .second_screen .container article section {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .second_screen .container article section div p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .second_screen .container article button {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .second_screen .container aside {
+    margin: 0 auto;
+  }
+
+  .second_screen .container aside img {
+    width: 47vw;
+    margin-bottom: -80px;
+    position: relative;
+  }
+
+  .third_screen .container .info_box {
+    flex-direction: column;
+  }
+
+  .third_screen .container article {
+    width: 47vw;
+    margin: 0 auto;
+    padding: 100px 24px 24px;
+  }
+
+  .third_screen .container article h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .third_screen .container article section {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .third_screen .container article section div p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .third_screen .container article button {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .third_screen .container aside {
+    margin: 60px auto 0;
+  }
+
+  .third_screen .container aside img {
+    width: 47vw;
+    margin-bottom: -80px;
+    position: relative;
+  }
+
+  .fourth_screen {
+    padding-bottom: 0;
+  }
+
+  .fourth_screen .container h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .fourth_screen .container main {
+    width: 50%;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .fourth_screen .container main .plan_card {
+    width: 100%;
+    margin: 16px 0;
+    padding: 40px;
+  }
+
+  .fourth_screen .container main .plan_card .price {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .fourth_screen .container main .plan_card .price span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .fourth_screen .container main .plan_card .type_plan {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .fourth_screen .container main .plan_card .privilege div p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .fourth_screen .container main .plan_card .btn_plan {
+    font-size: 14px;
+    line-height: 20px;
+  } 
+
+  .discover_box .container {
+    flex-direction: column;
+  }
+
+  .discover_box .container article h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 auto;
+  }
+
+  .discover_box .container article p {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 32px auto;
+  }
+
+  .discover_box .container aside a {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+
+  .first_screen main h1 {
+    width: 60%;
+    font-size: 26px;
+    line-height: 44px;
+  }
+
+  .first_screen main p {
+    width: 80%;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 32px auto 0;
+    /* padding: 0 30px; */
+  }
+
+  .first_screen main button {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+    margin: 32px auto 0;
+  }
+
+  .first_screen .container aside {
+    display: none;
+  }
+
+  .first_screen .container .under_section .our_program {
+    width: 90%;
+    margin: 16px auto;
+  }
+
+  .first_screen .container .under_section .aside_box {
+    width: 100%;
+  }
+
+  .first_screen .container .under_section .aside_box h3 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .first_screen .container .under_section .aside_box p {
+    text-align: center;
+    margin: 16px auto 0;
+  }
+
+  .second_screen .container h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .second_screen .container article {
+    width: 52vw;
+  }
+
+  .second_screen .container article h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .second_screen .container article section div p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .second_screen .container aside img {
+    width: 52vw;
+    margin-bottom: -80px;
+  }
+
+  .third_screen .container article {
+    width: 52vw;
+  }
+
+  .third_screen .container article h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .third_screen .container article section div p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .third_screen .container aside img {
+    width: 52vw;
+    margin-bottom: -80px;
+  }
+
+  .fourth_screen .container h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .fourth_screen .container main .plan_card .price {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .fourth_screen .container main .plan_card .price span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .fourth_screen .container main .plan_card .type_plan {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .fourth_screen .container main .plan_card .privilege div p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .fourth_screen .container main .plan_card .btn_plan {
+    width: 100%;
+    height: 32px;
+    margin-top: 24px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .discover_box .container article h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .discover_box .container article p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .discover_box .container aside a {
+    width: 120px;
+    padding: 12px 24px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: auto;
+    padding: 10px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .first_screen {
+    padding-top: 70px;
+  }
+
+  .first_screen main h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .first_screen main p {
+    width: 70%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .first_screen main button {
+    width: 100%;
+    height: 40px;
+    margin-top: 48px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .first_screen .container .under_section {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .first_screen .container .under_section .our_program {
+    flex-direction: column;
+  }
+
+  .first_screen .container .under_section .our_program .card {
+    position: relative;
+  }
+
+  .first_screen .container .under_section .our_program .card .icon {
+    width: 35px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+
+  .first_screen .container .under_section .card h4 {
+    width: 100%;
+    margin: 0 0 24px;
+  }
+
+  .first_screen .container .under_section .aside_box p {
+    width: 70%;
+  }
+
+  .second_screen {
+    padding-top: 20px;
+  }
+
+  .second_screen .container h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .second_screen .container article {
+    width: 90%;
+  }
+
+  .second_screen .container article h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .second_screen .container article section div p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .second_screen .container aside img {
+    width: 83.7vw;
+  }
+
+  .second_screen .container article button {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .third_screen {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .third_screen .container article {
+    width: 90%;
+  }
+
+  .third_screen .container article h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .third_screen .container article section div p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .third_screen .container aside img {
+    width: 83.7vw;
+  }
+
+  .third_screen .container article button {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .fourth_screen .container h2 {
+    width: 60%;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .fourth_screen .container main {
+    width: 90%;
+  }
+
+  .fourth_screen .container main .plan_card .price {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .fourth_screen .container main .plan_card .price span {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .fourth_screen .container main .plan_card .type_plan {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .fourth_screen .container main .plan_card .privilege div p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .fourth_screen .container main .plan_card .btn_plan {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .discover_box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .discover_box .container {
+    width: 100%;
+  }
+
+  .discover_box .container article {
+    width: 90%;
+  }
+
+  .discover_box .container article h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .discover_box .container article p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .discover_box .container aside {
+    width: 100%;
+  }
+
+  .discover_box .container aside a {
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    /* padding: 8px 16px; */
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

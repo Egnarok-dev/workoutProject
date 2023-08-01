@@ -1,0 +1,402 @@
+:root {
+    --main-font-color: #1C1C1E;
+    --second-font-color: #C5C5C5;
+    --third-font-color: #8e8e93;
+    --forth-font-color: #5E5D65;
+    --fifth-font-color: #44444C;
+    --sixth-font-color: #064BB4;
+    --font-white-color: #FFFFFF;
+    --background: #F9F9FB;
+    --second-background-color: #064BB4;
+    --footer-bacground-color: #08172d;
+    --card_background-color: #FFFFFF;
+    --accent: #BCFF5E;
+    --border: #E9EBED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans';
+}
+
+body {
+    background-color: var(--background);
+}
+
+.container {
+    width: 78.125vw;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+  width: 100vw;
+  position: fixed;
+  background-color: var(--background);
+  z-index: 990;
+}
+
+header a {
+  color: var(--third-font-color);
+}
+
+header nav {
+  width: 78.125vw;
+  padding: 23px 0;
+  margin: 0 auto;
+  display: flex;
+}
+
+header nav .nav_logo {
+  margin: auto 0;
+}
+
+header nav .nav_logo a {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.065em;
+}
+
+header nav .nav_menu {
+  width: 59.570vw;
+  height: 24px;
+  margin: auto 0 auto 10.554vw; 
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav .nav_menu .menu_categories {
+  width: 32.552vw;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+}
+
+header nav .nav_menu .menu_bar {
+  width: 16.536vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  margin-right: 16px;
+}
+
+header nav .nav_menu .menu_bar .open_cart-btn {
+  background-color: var(--background);
+  border: none;
+  margin-top: 7px;
+}
+
+header nav .nav_menu .menu_bar li .log_in-btn {
+  width: 83px;
+  height: 46px;
+  margin: 0 16px 0 38px;
+  border: 1px solid var(--main-font-color);
+  border-radius: 20px;
+  background-color: var(--background);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+}
+
+header nav .nav_menu .menu_bar li .sign_up-btn {
+  width: 83px;
+  height: 46px;
+  background: var(--accent);
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+}
+
+.logout-button {
+  width: 83px;
+  height: 46px;
+  background: var(--accent);
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  header nav {
+      width: 960px;
+  }
+
+  /* header nav .nav_menu .menu_categories {
+    width: 38.552vw;
+  } */
+
+  header nav .nav_menu .menu_bar li .log_in-btn {
+    margin: 0 10px;
+  }
+
+
+}
+
+@media screen and (max-width: 992px) {
+  header nav {
+    width: 720px;
+    position: relative;
+  }
+
+  header nav .nav_logo img {
+    width: 12.399vw;
+  }
+
+
+  header nav .nav_menu {
+    margin-left: 25px;
+  }
+
+  header nav .nav_menu .menu_categories {
+    margin-left: 20px;
+    font-size: 14px;
+    width: 330px;
+  }
+
+  header nav .nav_menu .menu_bar {
+    width: 15.121vw;
+    position: absolute;
+    top: 21px;
+    right: 12px;
+    justify-content: center;
+  }
+
+  header nav .nav_menu .menu_bar li .log_in-btn {
+    margin: 0 10px;
+  }
+
+  header nav .nav_menu .menu_bar li .log_in-btn, header nav .nav_menu .menu_bar li .sign_up-btn, .logout-button  {
+    width: 78px;
+    height: 40px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    width: 90%;
+    position: relative;
+  }
+
+  header a {
+    color: var(--forth-font-color);
+  }
+  
+  header nav .nav_menu .header_menu {
+    position: fixed;
+    top: 68px;
+    left: 0;
+    width: 100%;
+    padding: 15px 60px;
+    background-color: var(--card_background-color);
+    box-shadow: 64px 64px 80px rgba(8, 23, 45, 0.16);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 0 0 20px 20px;
+    
+  }
+
+  header nav .nav_menu .header_menu.active {
+    opacity: 999;
+    visibility: visible;
+  }
+
+  header nav .nav_logo {
+    position: absolute;
+    top: 15px;
+    left: 35.156vw;
+  }
+
+  header nav .nav_logo img {
+    width: 18.399vw;
+  }
+
+  header nav .nav_menu .header_menu .menu_categories {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  header nav .nav_menu .header_menu .menu_categories li {
+    padding: 7px;
+  }
+
+  .burger_menu {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .burger_menu span {
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: var(--fifth-font-color);
+    left: 0;
+    top: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .burger_menu::before,
+  .burger_menu::after {
+    content: '';
+    background-color: var(--fifth-font-color);
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .burger_menu::before {
+    top: 0;
+  }
+
+  .burger_menu::after {
+    bottom: 0;
+  }
+
+  .burger_menu.active span {
+    transform: scale(0);
+  }
+
+  .burger_menu.active::before {
+    transform: rotate(45deg);
+    top: 9px;
+
+  }
+  .burger_menu.active::after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+
+  header nav .nav_menu .menu_bar {
+    width: 19.531vw;
+    position: absolute;
+    top: 13px;
+    right: 9px;
+  }
+
+  header nav .nav_menu .menu_bar li .open_cart-btn {
+    margin-top: 4px;
+  }
+
+  header nav .nav_menu .menu_bar li .log_in-btn, header nav .nav_menu .menu_bar li .sign_up-btn, .logout-button  {
+    width: 75px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header nav {
+    width: 100%;
+  }
+
+  header nav .nav_logo {
+    position: absolute;
+    top: 16px;
+    left: 39.063vw;
+    z-index: 99999;
+}
+
+header nav .nav_logo img {
+  width: 115px;
+}
+
+header nav .nav_menu .menu_bar {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+}
+
+  .burger_menu {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    width: 30px;
+    height: 20px;
+    z-index: 99999;
+}
+
+  header nav .nav_menu .menu_bar li .log_in-btn, header nav .nav_menu .menu_bar li .sign_up-btn, .logout-button  {
+    width: 60px;
+    height: 36px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header nav {
+    width: 100%;
+  }
+
+  header nav .nav_logo {
+    position: absolute;
+    top: 20px;
+    left: 37vw;
+    z-index: 99999;
+}
+
+header nav .nav_logo img {
+  width: 80px;
+}
+
+  header nav .nav_menu .menu_bar {
+    width: 15.208vw;
+    position: absolute;
+    top: 18px;
+    right: 27px;
+  }
+
+  header nav .nav_menu .menu_bar li .log_in-btn, header nav .nav_menu .menu_bar li .sign_up-btn, .logout-button  {
+    width: 47px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  header nav .nav_menu .menu_bar li .log_in-btn {
+    margin: 0 4px;
+  }
+
+  header nav .nav_menu .menu_bar li .open_cart-btn img {
+    width: 25px;
+  }
+
+}

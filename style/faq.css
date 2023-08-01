@@ -1,0 +1,208 @@
+:root {
+    --main-font-color: #1C1C1E;
+    --second-font-color: #C5C5C5;
+    --third-font-color: #8e8e93;
+    --forth-font-color: #5E5D65;
+    --fifth-font-color: #44444C;
+    --sixth-font-color: #064BB4;
+    --font-white-color: #FFFFFF;
+    --background: #F9F9FB;
+    --second-background-color: #064BB4;
+    --footer-bacground-color: #08172d;
+    --card_background-color: #FFFFFF;
+    --accent: #BCFF5E;
+    --border: #E9EBED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+body {
+    background-color: var(--background);
+}
+
+.container {
+    width: 78.125vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.first_screen {
+    padding-top: 156px;
+    padding-bottom: 120px;
+}
+
+.first_screen .container {
+    width: 52.243vw;
+}
+
+.first_screen .container h2 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: 0.36px;
+}
+
+.first_screen .container h2 span {
+    font-weight: 400;
+}
+
+.first_screen .container .description {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    color: var(--third-font-color);
+}
+
+.first_screen .container h3 {
+    margin-top: 80px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.12px;
+}
+
+.first_screen .container summary::-webkit-details-marker {
+    display: none;
+}
+
+.first_screen .container summary::after {
+    content: url(../gallery/icons/FAQ/add-circle.png);
+    float: right;
+    margin-left: auto;
+}
+
+.first_screen .container details[open] summary::after {
+    content: url(../gallery/icons/FAQ/minus-cirlce.png);
+}
+
+.first_screen .container details {
+    width: 52.243vw;
+    margin-top: 24px;
+}
+
+.first_screen .container details summary {
+    background-color: var(--background);
+    padding-top: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.first_screen .container details p {
+    color: var(--third-font-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    margin-top: 16px;
+    padding-bottom: 12px;
+}
+
+.second_screen {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.second_screen .container {
+    width: 52.243vw;
+}
+
+.second_screen .container h2 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: 0.36px;
+}
+
+.second_screen .container h2 span {
+    font-weight: 400;
+}
+
+.second_screen .container .description {
+    margin: 16px 0 32px;
+    color: var(--third-font-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.second_screen .container  label {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;  
+}
+
+
+
+.second_screen .container label input {
+    height: 52px;
+    margin-top: 8px;
+    padding-left: 16px;
+    border-radius: 24px;
+    border: 1px solid var(--border);
+    background: var(--card_background-color);
+    color:  var(--second-font-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.second_screen .container  label textarea {
+    height: 116px;
+    margin-top: 8px;
+    padding: 16px 0 0 16px;
+    border-radius: 24px;
+    border: 1px solid var(--border);
+    background: var(--card_background-color);
+    color:  var(--second-font-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    resize: none;
+}
+
+.second_screen .container .btn {
+    width: 207px;
+    text-align: center;
+    padding: 16px 40px;
+    margin-top: 47px;
+    margin-left: auto;
+    color: var(--main-font-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    border-radius: 24px;
+    background: var(--accent);
+}

@@ -1,0 +1,232 @@
+:root {
+    --main-font-color: #1C1C1E;
+    --second-font-color: #C5C5C5;
+    --third-font-color: #8e8e93;
+    --forth-font-color: #5E5D65;
+    --fifth-font-color: #44444C;
+    --sixth-font-color: #064BB4;
+    --font-white-color: #FFFFFF;
+    --background: #F9F9FB;
+    --second-background-color: #064BB4;
+    --footer-bacground-color: #08172d;
+    --card_background-color: #FFFFFF;
+    --accent: #BCFF5E;
+    --border: #E9EBED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans';
+}
+
+body {
+    background-color: var(--background);
+}
+
+.container {
+    width: 78.125vw;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* header style */
+header nav .nav_menu .menu_categories li:nth-child(2) a {
+    color: var(--main-font-color);
+}
+/* end header style */
+
+.first_screen {
+    padding-top: 160px;
+    padding-bottom: 120px;
+}
+
+.first_screen .container .btn {
+    width: 96px;
+    height: 38px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid var(--border);
+    background-color: var(--background);
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: var(--sixth-font-color);
+}
+
+.first_screen .container h2 {
+    width: 28.100vw;
+    margin: 16px auto 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container main {
+    width: 68.602vw;
+    margin: 48px auto 0;
+}
+
+.first_screen .container main .our_program{
+    width: 57.718vw;
+    margin: 0 auto;
+    display: flex;
+    background-color: var(--card_background-color);
+    border-radius: 20px;
+    position: relative;
+}
+
+.first_screen .container main .card {
+    width: 19.195vw;
+    padding: 24px;
+}
+
+.first_screen .container main .card h4 {
+    width: 11.741vw;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container main .card p {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container main .card a {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+} 
+
+.first_screen .container main .card a img {
+    margin-left: 5.67px;
+}
+
+.first_screen .container main .card:nth-child(2) {
+    background-color: var(--accent);
+}
+
+/* second_screen */
+.second_screen {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.second_screen .container {
+    width: 79.156vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_screen .container aside {
+    width: 27.770vw;
+}
+
+.second_screen .container aside h2 {
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: 0.36px;
+}
+
+.second_screen .container aside h2 span {
+    font-weight: 400;
+}
+
+.second_screen .container aside p {
+    margin: 16px 0 64px;
+    color: var(--third-font-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.second_screen .container aside a {
+    color: var(--main-font-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    border-radius: 24px;
+    background: var(--accent);
+    padding: 16px 40px;
+    
+}
+
+.second_screen .container main {
+    width: 46.174vw;
+}
+
+.second_screen .container main h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.12px;
+}
+
+.second_screen .container summary::-webkit-details-marker {
+    display: none;
+}
+
+.second_screen .container summary::after {
+    content: url(../gallery/icons/programs/add-circle.png);
+    float: right;
+    margin-left: auto;
+}
+
+.second_screen .container details[open] summary::after {
+    content: url(../gallery/icons/programs/minus-cirlce.png);
+}
+
+.second_screen .container details {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.second_screen .container details summary {
+    background-color: var(--background);
+    padding-top: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.second_screen .container details p {
+    color: var(--third-font-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    margin-top: 16px;
+    padding-bottom: 12px;
+}
+/* second_screen */

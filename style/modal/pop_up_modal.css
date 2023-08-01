@@ -1,0 +1,70 @@
+:root {
+    --main-font-color: #1C1C1E;
+    --second-font-color: #C5C5C5;
+    --third-font-color: #8e8e93;
+    --forth-font-color: #5E5D65;
+    --fifth-font-color: #44444C;
+    --sixth-font-color: #064BB4;
+    --font-white-color: #FFFFFF;
+    --background: #F9F9FB;
+    --second-background-color: #064BB4;
+    --footer-bacground-color: #08172d;
+    --card_background-color: #FFFFFF;
+    --accent: #BCFF5E;
+    --border: #E9EBED;
+}
+
+.pop_up_modal {
+    width: 350px;
+    height: auto;
+    padding: 32px;
+    background-color: var(--card_background-color);
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+}
+
+.pop_up_modal.is-visible {
+    transform: translateX(0);
+    visibility: visible;
+    opacity: 1;
+}
+
+.pop_up_modal h3 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.08px;
+    margin: 18px 0;
+}
+
+.pop_up_modal .btn_pop_up_modal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pop_up_modal .btn_pop_up_modal a {
+    padding: 16px 48px;
+    border-radius: 24px;
+    color: var(--main-font-color);
+    background-color: var(--accent);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pop_up_modal .btn_pop_up_modal button {
+    width: 133px;
+    height: 56px;
+    background-color: var(--card_background-color);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+}

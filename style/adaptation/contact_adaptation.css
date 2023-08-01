@@ -1,0 +1,101 @@
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width:960px;
+    }
+
+    .first_screen .container .main_contact_box {
+        width: 60%;
+    }
+
+    .first_screen .container .aside_card {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .first_screen .container .main_contact_box h2 {
+        font-size: 62px;
+        line-height: 70px;
+    }
+
+    .first_screen .container .main_contact_box .box_description {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }  
+
+    .first_screen {
+        padding-top: 100px;
+    }
+
+    .first_screen .container .main_contact_box {
+        width: 55%;
+    }
+
+    .first_screen .container .main_contact_box h2 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+
+    .first_screen .container .main_contact_box .box_description {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .first_screen .container .main_contact_box label .form_input {
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .first_screen .container .aside_card {
+        width: 42%;
+        height: 375px;
+        padding: 20px;
+    }
+
+    .first_screen .container .aside_card p {
+        font-size: 14px;
+    }
+    .first_screen .container .aside_card ul li{
+        font-size: 14px;
+    }
+
+    .first_screen .container .main_contact_box .contact_form_btn {
+        width: 170px;
+        height: 48px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .first_screen .container .aside_card {
+        display: none;
+    }
+
+    .first_screen .container .main_contact_box {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+      width: auto;
+      padding: 10px;
+    }
+}

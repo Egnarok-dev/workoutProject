@@ -1,0 +1,245 @@
+:root {
+    --main-font-color: #1C1C1E;
+    --second-font-color: #C5C5C5;
+    --third-font-color: #8e8e93;
+    --forth-font-color: #5E5D65;
+    --fifth-font-color: #44444C;
+    --sixth-font-color: #064BB4;
+    --font-white-color: #FFFFFF;
+    --background: #F9F9FB;
+    --second-background-color: #064BB4;
+    --footer-bacground-color: #08172d;
+    --card_background-color: #FFFFFF;
+    --accent: #BCFF5E;
+    --border: #E9EBED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans';
+}
+
+body {
+    background-color: var(--background);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* header style */
+header nav .nav_menu .menu_categories li:nth-child(3) a {
+    color: var(--main-font-color);
+}
+/* end header style */
+
+.first_screen {
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+
+.first_screen .container {
+    width: 61.082vw;
+}
+
+.first_screen .container h2 {
+    /* width: 33.113vw; */
+    text-align: center;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container h2 span {
+    font-weight: 400;
+}
+
+.first_screen .container .info_box {
+    /* width: 624px; */
+    /* margin: 16px auto 0; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: var(--forth-font-color);
+}
+
+.first_screen .container .team_trainers {
+    width: 61.082vw;
+    margin: 64px auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first_screen .container .team_trainers .card_trainer {
+    width: 282px;
+    margin-bottom: 40px;
+    background: var(--card_background-color);
+    border-radius: 16px;
+}
+
+.first_screen .container .team_trainers .card_trainer .photo_trainer {
+    margin: 12px 12px 0;
+}
+
+.first_screen .container .team_trainers .card_trainer h3 {
+    width: 10.818vw;
+    margin: 16px auto 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container .team_trainers .card_trainer p {
+    width: 7.784vw;
+    margin: 12px auto 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: var(--forth-font-color);
+}
+
+.first_screen .container .team_trainers .card_trainer .social_media ul{
+    width: 140px;
+    margin: 16px auto 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_screen {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.second_screen .container h2 {
+    width: 31.662vw;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.005em;
+}
+
+.second_screen .container span {
+    width: 33.773vw;
+    display: block;
+    margin: 16px auto 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: var(--forth-font-color);
+}
+
+.second_screen .container .contant {
+    width: 71.636vw;
+    margin: 56px auto 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--card_background-color);
+    border-radius: 24px;
+}
+
+.second_screen .container .contant .card {
+    width: 23.879vw;
+    padding: 32px 40px;    
+}
+
+.second_screen .container .contant .card:nth-child(2) {
+    background-color: var(--second-background-color);
+}
+
+.second_screen .container .contant .card h4 {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.005em;
+}
+
+.second_screen .container .contant .card p {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--forth-font-color);
+}
+
+.second_screen .container .contant .card:nth-child(2) h4 {
+    color: var(--font-white-color); 
+}
+
+.second_screen .container .contant .card:nth-child(2) p {
+    color: #D1D1D6; 
+}            
+
+.discover_box {
+    padding: 80px 0;
+    background-color: var(--second-background-color);
+}
+
+.discover_box .container {
+    width: 79.156vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discover_box .container article {
+    width: 48.177vw;
+}
+
+.discover_box .container article h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.005em;
+    color: var(--font-white-color);
+}
+
+.discover_box .container article p {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--font-white-color);
+}
+
+.discover_box .container aside a {
+    width: 170px;
+    display: block;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    background-color: var(--accent);
+    color: var(--main-font-color);
+    border-radius: 24px;
+}

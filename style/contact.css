@@ -1,0 +1,202 @@
+:root {
+    --main-font-color: #1C1C1E;
+    --second-font-color: #C5C5C5;
+    --third-font-color: #8e8e93;
+    --forth-font-color: #5E5D65;
+    --fifth-font-color: #44444C;
+    --sixth-font-color: #064BB4;
+    --font-white-color: #FFFFFF;
+    --background: #F9F9FB;
+    --second-background-color: #064BB4;
+    --footer-bacground-color: #08172d;
+    --card_background-color: #FFFFFF;
+    --accent: #BCFF5E;
+    --border: #E9EBED;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+body {
+    background-color: var(--background);
+}
+
+.container {
+    width: 78.125vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* header style */
+header nav .nav_menu .menu_categories li:nth-child(5) a {
+    color: var(--main-font-color);
+}
+/* end header style */
+
+.first_screen {
+    padding-top: 160px;
+    padding-bottom: 120px;
+}
+
+.first_screen .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first_screen .container .main_contact_box {
+    width: 46.940vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_screen .container .main_contact_box h2 {
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: 0.36px;
+}
+
+.first_screen .container .main_contact_box h2 span {
+    font-weight: 400;
+}
+
+.first_screen .container .main_contact_box .box_description {
+    width: 462px;
+    margin: 8px 0 32px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    color: #636366;
+}
+
+.first_screen .container .main_contact_box label {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;  
+}
+
+.first_screen .container .main_contact_box label .form_input {
+    height: 52px;
+    margin-top: 8px;
+    padding-left: 16px;
+    border-radius: 24px;
+    border: 1px solid var(--additional-colors-line, #E9EBED);
+    background: var(--additional-colors-white, #FFF);
+    color:  #AEAEB2;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.first_screen .container .main_contact_box label textarea {
+    height: 116px;
+    margin-top: 8px;
+    padding: 16px 0 0 16px;
+    border-radius: 24px;
+    border: 1px solid var(--additional-colors-line, #E9EBED);
+    background: var(--additional-colors-white, #FFF);
+    color:  #AEAEB2;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    resize: none;
+}
+
+.first_screen .container .main_contact_box .form_btn {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.first_screen .container .main_contact_box .contact_form_btn {
+    width: 190px;
+    height: 56px;
+    margin-top: 24px;
+    color: #1C1C1E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    border-radius: 24px;
+    background: var(--main-colors-primary, #BCFF5E);
+    border: none;
+}
+
+.first_screen .container .aside_card {
+    width: 25.952vw;
+    height: 365px;
+    margin-top: 176px;
+    display: block;
+    padding: 24px;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.first_screen .container .aside_card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.09px;
+}
+
+.first_screen .container .aside_card p {
+    margin: 8px 0 32px;
+    color: #636366;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.first_screen .container .aside_card ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.first_screen .container .aside_card ul li img {
+    margin-right: 12px;
+}
+
+@keyframes shake {
+    0% { transform: translateX(-15px); }
+    25% { transform: translateX(15px); }
+    50% { transform: translateX(-15px); }
+    75% { transform: translateX(15px); }
+    100% { transform: translateX(0); }
+  }
+
+
+
+.first_screen .container .main_contact_box label input.error {
+    border: 2px solid red; /* Змінити колір межі на червоний */
+    background-color: rgb(250, 199, 199);
+    animation: shake 0.5s;
+  }
+  
+  .error_message {
+    color: red; /* Змінити колір тексту на червоний */
+    font-size: 12px; /* Змінити розмір шрифту */
+    margin-top: 4px; /* Додати відступ зверху для повідомлення про помилку */
+    font-size: 16px;
+  }

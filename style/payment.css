@@ -1,0 +1,296 @@
+:root {
+    --main-font-color: #1C1C1E;
+    --second-font-color: #C5C5C5;
+    --third-font-color: #8e8e93;
+    --forth-font-color: #5E5D65;
+    --fifth-font-color: #44444C;
+    --sixth-font-color: #064BB4;
+    --font-white-color: #FFFFFF;
+    --background: #F9F9FB;
+    --second-background-color: #064BB4;
+    --footer-bacground-color: #08172d;
+    --card_background-color: #FFFFFF;
+    --accent: #BCFF5E;
+    --border: #E9EBED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+body {
+    background-color: var(--background);
+}
+
+.container {
+    width: 78.125vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.first_screen {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.first_screen .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first_screen main {
+    width: 47.625vw;
+}
+
+.first_screen main h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.16px;
+}
+
+.first_screen main form .payment_methods h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    margin-top: 48px;
+}
+
+.first_screen main form .payment_methods .payment_system {
+    width: 47.559vw;
+    height: 72px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    border-radius: 32px;
+    border: 1px solid #E9EBED;
+    background: var(--card_background-color);
+    padding: 24px 16px;
+}
+
+.first_screen main form .payment_methods .payment_system input {
+    width: 24px;
+    height: 24px;
+}
+
+.first_screen main form .payment_methods .payment_system img {
+    margin-left: 24px;
+}
+
+.first_screen main form .short_payment_text {
+    margin-top: 32px;
+    color: var(--third-font-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.first_screen main form .credit_card_info {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_screen main form .credit_card_info label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+}
+
+.first_screen main form .credit_card_info label .card_info {
+    width: 100%;
+    height: 52px;
+    margin-top: 8px;
+    border-radius: 24px;
+    border: 1px solid var(--border);
+    background: var(--card_background-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    padding-left: 16px;
+}
+
+.first_screen main form .credit_card_info .card_info {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_screen main form .credit_card_info .card_details {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.first_screen main form .credit_card_info .save_card_checkbox {
+    width: 100px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first_screen main form .credit_card_info .save_card_checkbox .payment_checkbox {
+    display: none;
+    /* Ховаємо оригінальний чекбокс */
+}
+
+.first_screen main form .credit_card_info .save_card_checkbox .custom_checkbox {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--border);
+    background-color: var(--card_background-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.first_screen main form .credit_card_info .save_card_checkbox .payment_checkbox:checked+.custom_checkbox {
+    background-image: url(../gallery/icons/payment/check.png);
+    background-size: cover; /* Задаємо стилі для вибраного стану чекбокса */
+}
+
+.first_screen main form .pay_btn {
+    margin-top: 48px;
+    padding: 16px 40px;
+    border-radius: 24px;
+    border: none;
+    background: var(--accent);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+}
+
+
+
+.first_screen .container aside .order_box{
+    width: 26.319vw;
+    display: block;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.first_screen .container aside .order_box .flex_box_order {
+    display: flex;
+}
+
+.first_screen .container aside .order_box .flex_box_order .order_price {
+    margin-top: 20px;
+}
+
+.first_screen .container aside .order_box h3 {
+    margin-top: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.09px;
+}
+
+.first_screen .container aside .order_box .plan_description {
+    margin-top: 8px;
+    color: var(--third-font-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.first_screen .container aside .order_box .includes h4 {
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.first_screen .container aside .order_box .includes ul li {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container aside .order_box .includes ul li img {
+    margin-right: 12px;
+}
+
+.first_screen .container aside .order_box .order_value h5 {
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+}
+
+.first_screen .container aside .order_box .payment_plan_btn {
+    width: 22.852vw;
+    background-color: var(--card_background-color);
+    border-radius: 24px;
+    border: 1px solid var(--border);
+    margin-top: 8px;
+    text-align: start;
+    padding: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+/* Dropdown menu */
+.first_screen .container aside .order_box .order_value .dropdown-menu {
+    padding: 14px 16px;
+    margin-top: 5px;
+    background: #FFFFFF;
+    border: 1px solid #E9EBED; 
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.first_screen .container aside .order_box .order_value .dropdown-menu .dropdown-item {
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container aside .order_box .order_value .flex_box_order {
+    margin-top: 32px;
+    display: flex;
+}
+
+.js-cost-order {
+    display: block;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.005em;
+    color: #09080D;
+}
+
+/* End dropdown menu */

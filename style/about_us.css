@@ -1,0 +1,349 @@
+:root {
+    --main-font-color: #1C1C1E;
+    --second-font-color: #C5C5C5;
+    --third-font-color: #8e8e93;
+    --forth-font-color: #5E5D65;
+    --fifth-font-color: #44444C;
+    --sixth-font-color: #064BB4;
+    --font-white-color: #FFFFFF;
+    --background: #F9F9FB;
+    --second-background-color: #064BB4;
+    --footer-bacground-color: #08172d;
+    --card_background-color: #FFFFFF;
+    --accent: #BCFF5E;
+    --border: #E9EBED;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+body {
+    background-color: #f9f9fb;
+}
+
+.container {
+    width: 78.125vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.first_screen {
+    padding-top: 173px;
+    background-color: #064bb4;
+}
+
+.first_screen .container section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_screen .container .title_box .btn {
+    width: 6.25vw;
+    padding: 8px 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #bcff5e;
+    border: 1px solid #bcff5e;
+    border-radius: 20px;
+}
+
+.first_screen .container .title_box h2 {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+}
+
+.first_screen .container .aside_box h3 {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+}
+
+.first_screen .container .aside_box p {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #d1d1d6;
+}
+
+.first_screen .container .bottom_box {
+    margin-top: -75px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first_screen .container .bottom_box .ellipse {
+    position: absolute;
+    top: 227px;
+}
+
+.first_screen .container .bottom_box .first_card {
+    width: 13.867vw;
+    position: absolute;
+    top: 332px;
+    left: 14.453vw;
+    padding: 20px 48px 20px 20px;
+    background: linear-gradient(256.88deg,
+            rgba(255, 255, 255, 0.24) -18.18%,
+            rgba(255, 255, 255, 0) 118.08%);
+    filter: drop-shadow(48px 48px 80px rgba(8, 23, 45, 0.12));
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+}
+
+.first_screen .container .bottom_box .first_card .flex_box,
+.bottom_box .second_card .flex_box {
+    display: flex;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+}
+
+.first_screen .container .bottom_box .first_card .flex_box .number,
+.bottom_box .second_card .flex_box .number {
+    margin-left: 8px;
+}
+
+.first_screen .container .bottom_box .first_card .card_description,
+.bottom_box .second_card .card_description {
+    margin: 4px 0 0 48px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+}
+
+.first_screen .container .bottom_box .second_card {
+    width: 13.867vw;
+    position: absolute;
+    top: 95px;
+    left: 46.745vw;
+    padding: 20px;
+    background: linear-gradient(256.88deg,
+            rgba(255, 255, 255, 0.24) -18.18%,
+            rgba(255, 255, 255, 0) 118.08%);
+    filter: drop-shadow(48px 48px 80px rgba(8, 23, 45, 0.12));
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+}
+
+.second_screen {
+    padding-top: 120px;
+}
+
+.second_screen .container section {
+    width: 75vw;
+}
+
+.second_screen .container section h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.005em;
+}
+
+.second_screen .container section .section_description {
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #636366;
+}
+
+.second_screen .container .first_box,
+.second_screen .container .second_box,
+.second_screen .container .third_box {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_screen .container .first_box .left_card,
+.second_screen .container .second_box .right_card,
+.second_screen .container .third_box .left_card {
+    width: 30.794vw;
+    padding: 64px 40px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.second_screen .container .first_box .left_card h4,
+.second_screen .container .second_box .right_card h4,
+.second_screen .container .third_box .left_card h4 {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+}
+
+.second_screen .container .first_box .left_card .box_description,
+.second_screen .container .second_box .right_card .box_description,
+.second_screen .container .third_box .left_card .box_description {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+}
+
+.second_screen .container section .img_size {
+    width: 41.081vw;
+}
+
+.feedback {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.feedback .container .btn {
+    width: 5.143vw;
+    height: 38px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #e9ebed;
+    background-color: #f9f9fb;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #064bb4;
+}
+
+.feedback .container h2 {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+}
+
+.feedback .container .review_box {
+    width: 44.01vw;
+    margin: 48px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback .container .review_box article {
+    width: 39.323vw;
+}
+
+.feedback .container .review_box article span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #aeaeb2;
+}
+
+.feedback .container .review_box article .client_review {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.005em;
+}
+
+.feedback .container .review_box article .client {
+    display: flex;
+    align-items: center;
+}
+
+.feedback .container .review_box article .client_photo {
+    margin: 32px 12px 0 0;
+}
+
+.feedback .container .review_box article .personal_info {
+    width: 6.51vw;
+    margin-top: 32px;
+}
+
+.feedback .container .review_box article .personal_info p {
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; */
+    letter-spacing: 0.005em;
+}
+
+.feedback .container .review_box article .personal_info span {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 22px; */
+    letter-spacing: 0.005em;
+}
+
+.feedback .container .carousel_menu {
+    width: 8.333vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px auto 0;
+}
+
+.feedback .container .carousel_menu .points {
+    width: 2.604vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback .container .carousel_menu .points div {
+    width: 8px;
+    height: 8px;
+    background-color: #e9ebed;
+    border-radius: 100%;
+}
+
+.feedback .container .carousel_menu .points div:first-child {
+    width: 16px;
+    height: 8px;
+    background-color: #064bb4;
+    border-radius: 8px;
+}
+
+.feedback .container .carousel_menu button {
+    border: none;
+    background-color: #f9f9fb;
+}

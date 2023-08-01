@@ -1,0 +1,273 @@
+@media screen and (max-width: 1440px) {
+    .first_screen .container .team_trainers {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .first_screen .container, .second_screen .container {
+        width:960px;
+    }
+
+    .first_screen .container .info_box {
+        width: 90%;
+        margin: 16px auto 0;
+    }
+
+    .first_screen .container .team_trainers {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .first_screen .container h2 {
+        font-size: 62px;
+    }
+
+    .second_screen .container h2 {
+        width: 60%;
+        text-align: center;
+    }
+
+    .discover_box .container article {
+        width: 70%;
+      }
+    
+      .discover_box .container article h2 {
+        font-size: 40px;
+        line-height: 48px;
+      }
+    
+      .discover_box .container article p {
+        font-size: 14px;
+        line-height: 22px;
+      }
+    
+      .discover_box .container aside a {
+        width: 170px;
+      }
+}
+
+@media screen and (max-width: 992px) {
+    .first_screen .container, .second_screen .container {
+        width: 720px;
+    }
+
+    .first_screen {
+        padding-bottom: 0;
+    }
+    
+    .first_screen .container main {
+        width: 100%;
+    }
+
+    .first_screen .container h2 {
+        font-size: 52px;
+    }
+
+    .first_screen .container .team_trainers {
+        width: 600px;
+    }
+
+    .first_screen .container .team_trainers .card_trainer {
+        width: 250px;
+    }
+
+    .first_screen .container .team_trainers .card_trainer .photo_trainer {
+        width: 90%;
+    }
+
+    .second_screen .container .contant {
+        width: 85vw;
+    }
+
+    .second_screen .container .contant .card {
+        width: 33.3%;
+        padding: 32px;
+    }
+
+    .second_screen .container .contant .card h4 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .first_screen .container .info_box {
+        width: 60%;
+    }
+
+    .second_screen .container span {
+        width: 70%;
+    }
+
+    .discover_box .container article h2 {
+        font-size: 32px;
+        line-height: 40px;
+      }
+    
+      .discover_box .container article p {
+        width: 50.323vw;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    
+      .discover_box .container aside a {
+        font-size: 14px;
+        line-height: 20px;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .first_screen .container, .second_screen .container {
+        width: 540px;
+    } 
+
+    .first_screen .container h2, .second_screen .container h2  {
+        font-size: 42px;
+    }
+
+    .first_screen .container .team_trainers {
+        width: 300px;
+    }
+    
+    .first_screen .container .team_trainers .card_trainer {
+        width: 300px;
+    }
+
+    .first_screen .container .team_trainers .card_trainer h3 {
+        width: 70%;
+    }
+
+    .second_screen .container .contant {
+        width: 70%;
+        margin: 16px auto;
+        flex-direction: column;
+    }
+
+    .second_screen .container .contant .card {
+        width: 100%;
+    }
+
+    .discover_box .container {
+        flex-direction: column;
+      }
+    
+      .discover_box .container article h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 32px;
+        line-height: 40px;
+        margin: 0 auto;
+      }
+    
+      .discover_box .container article p {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 32px auto;
+      }
+    
+      .discover_box .container aside a {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 auto;
+      }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .first_screen .container, .second_screen .container {
+        width: 100%;
+    }
+
+    .first_screen {
+        padding-top: 80px;
+    }
+
+    .first_screen .container .info_box {
+        width: 80%;
+    }
+
+    .second_screen {
+        padding-top: 0;
+    }
+
+    .discover_box .container article h2 {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    
+      .discover_box .container article p {
+        font-size: 12px;
+        line-height: 18px;
+      }
+    
+      .discover_box .container aside a {
+        width: 120px;
+        padding: 12px 24px;
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+}
+
+@media screen and (max-width: 480px) {
+    .first_screen .container, .second_screen .container {
+      width: auto;
+      padding: 10px;
+    }
+
+    .first_screen .container h2, .second_screen .container h2 {
+        font-size: 32px;
+    }
+
+    .second_screen {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .second_screen .container .contant {
+        width: 300px;
+        margin-top: 16px;
+    }
+
+    .second_screen .container .contant .card {
+        width: 300px;
+    }
+
+    .discover_box {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    
+      .discover_box .container {
+        width: 100%;
+      }
+    
+      .discover_box .container article {
+        width: 90%;
+      }
+    
+      .discover_box .container article h2 {
+        font-size: 20px;
+        line-height: 28px;
+      }
+    
+      .discover_box .container article p {
+        width: 100%;
+        font-size: 12px;
+        line-height: 18px;
+      }
+    
+      .discover_box .container aside {
+        width: 100%;
+      }
+    
+      .discover_box .container aside a {
+        width: 60%;
+        height: 40px;
+        text-align: center;
+        /* padding: 8px 16px; */
+        font-size: 14px;
+        line-height: 16px;
+      }
+}

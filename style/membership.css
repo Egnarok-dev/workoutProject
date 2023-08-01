@@ -1,0 +1,221 @@
+:root {
+    --main-font-color: #1C1C1E;
+    --second-font-color: #C5C5C5;
+    --third-font-color: #8e8e93;
+    --forth-font-color: #5E5D65;
+    --fifth-font-color: #44444C;
+    --sixth-font-color: #064BB4;
+    --font-white-color: #FFFFFF;
+    --background: #F9F9FB;
+    --second-background-color: #064BB4;
+    --footer-bacground-color: #08172d;
+    --card_background-color: #FFFFFF;
+    --accent: #BCFF5E;
+    --border: #E9EBED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans';
+}
+
+body {
+    background-color: #F9F9FB;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* header style */
+header nav .nav_menu .menu_categories li:nth-child(4) a {
+    color: var(--main-font-color);
+}
+/* end header style */
+
+.first_screen {
+    padding-top: 160px;
+    padding-bottom: 40px;
+}
+
+.first_screen .container .btn {
+    width: 116px;
+    height: 38px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #E9EBED;
+    background-color: #F9F9FB;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #064BB4;
+}
+
+.first_screen .container h2 {
+    width: 776px;
+    margin: 16px auto 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container main {
+    width: 928px;
+    margin: 56px auto 0;
+    display: flex;
+    justify-content: space-between
+}
+
+.first_screen .container main .plan_card {
+    width: 288px;
+    height: 310px;
+    padding: 32px 24px;
+    background: #FFFFFF;
+    border-radius: 24px;
+}
+
+.first_screen .container main .plan_card:nth-child(2) {
+    background: #064BB4;
+    color: white;
+}
+
+.first_screen .container main .plan_card .price {
+    width: 205px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container main .plan_card .price span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #D1D1D6;
+}
+
+.first_screen .container main .plan_card .type_plan {
+    display: block;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: #064BB4;
+}
+
+.first_screen .container main .plan_card:nth-child(2) .type_plan {
+    color: white;
+}
+
+.first_screen .container main .plan_card .info_about_plan {
+    width: 240px;
+    margin-top: 16px;
+    color: #3A3A3C;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.first_screen .container main .plan_card:nth-child(2) .info_about_plan {
+    color: #F2F2F7;
+}
+
+.first_screen .container main .plan_card .btn_plan{ 
+    display: block;
+    width: 240px;
+    height: 46px;
+    margin: 24px auto 0;
+    background: #BCFF5E;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+}
+
+.second_screen {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.second_screen .container h4 {
+    padding-left: 12px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #064BB4;    
+}
+
+.second_screen .container table {
+    width: 79.156vw;
+}
+
+.second_screen .container table tr {
+    display: flex;
+    align-items: center;
+}
+
+.second_screen .container table tr img {
+    margin: 11px 0 11px 4px;
+}
+
+.second_screen .container table td {
+    width: 17.942vw;
+    height: 58px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+}
+
+.second_screen .container table td span {
+    display: block;
+    margin: 16px;
+}
+
+.second_screen .container table .left_column {
+    width: 17.942vw;
+    height: 58px; 
+    padding-left: 12px; 
+    display: flex;
+    align-items: center;
+}
+
+.second_screen .container table tr td:nth-child(3) {
+    width: 24.011vw;
+}
+
+.back-color {
+    background-color: white;
+}
